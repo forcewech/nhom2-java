@@ -43,25 +43,23 @@ public class DangNhap extends javax.swing.JFrame {
 
         jLabelDN.setBackground(new java.awt.Color(0, 0, 0));
         jLabelDN.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabelDN.setForeground(new java.awt.Color(0, 0, 0));
         jLabelDN.setText("Tên đăng nhập:");
         getContentPane().add(jLabelDN, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
         getContentPane().add(jTextDN, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 370, 30));
         getContentPane().add(jPassMK, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 310, 370, 30));
 
         jLabelMK.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabelMK.setForeground(new java.awt.Color(0, 0, 0));
         jLabelMK.setText("Mật khẩu:");
         getContentPane().add(jLabelMK, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jLabelTitl.setBackground(new java.awt.Color(255, 255, 255));
         jLabelTitl.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabelTitl.setForeground(new java.awt.Color(0, 0, 0));
         jLabelTitl.setText("Trường đại học Công Nghiệp Hà Nội");
         getContentPane().add(jLabelTitl, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 340, 40));
 
         jButton1.setBackground(new java.awt.Color(0, 51, 255));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Đăng nhập");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
